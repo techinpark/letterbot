@@ -29,12 +29,12 @@ export default async({ weather, news, date, url }: slackArgs) => {
         short: true,
       },
       {
-        title: '🏞️ 날씨 / 부산',
+        title: '🏞️ 날씨 / 서울',
         value: weather.weather,
         short: true,
       },
       {
-        title: '🌡 온도 / 부산',
+        title: '🌡 온도 / 서울',
         value: weather.temp,
         short: true,
       },
